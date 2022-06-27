@@ -8,14 +8,14 @@ package com.mycompany.retounoydos;
  *
  * @author USER
  */
-public class Suma extends Operacion {
+public class ClsRaiz extends ClsOperacion{
     
-    double suma;
-    
-    public Suma(double numero1, double numero2){
+    double raiz;
+        
+    public ClsRaiz(double numero1, double numero2){
     super(numero1,numero2);
-    this.suma = numero1 + numero2;
-    this.respuesta = this.suma;
+    this.raiz = Math.sqrt(numero1);
+    this.respuesta = Math.round(this.raiz * Math.pow(10, 2)) / Math.pow(10, 2);
+        
     }
-    
 }

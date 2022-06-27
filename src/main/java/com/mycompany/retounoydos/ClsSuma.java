@@ -8,15 +8,14 @@ package com.mycompany.retounoydos;
  *
  * @author USER
  */
-public class Potencia extends Operacion{
+public class ClsSuma extends ClsOperacion {
     
-    double potencia;
+    double suma;
     
-    public Potencia(double numero1, double numero2){
+    public ClsSuma(double numero1, double numero2){
     super(numero1,numero2);
-    this.potencia = Math.pow(numero1, numero2);
-    this.respuesta = this.potencia;
-        
+    this.suma = numero1 + numero2;
+    this.respuesta = this.suma;
     }
     
 }

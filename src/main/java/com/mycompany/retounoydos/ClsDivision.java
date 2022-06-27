@@ -9,11 +9,11 @@ package com.mycompany.retounoydos;
  *
  * @author USER
  */
-public class Division extends Operacion{
+public class ClsDivision extends ClsOperacion{
     
     double division;
     
-    public Division(double numero1, double numero2){
+    public ClsDivision(double numero1, double numero2){
     super(numero1,numero2);
     this.division = numero1 / numero2;
         

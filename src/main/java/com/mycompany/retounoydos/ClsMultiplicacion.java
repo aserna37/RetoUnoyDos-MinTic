@@ -8,13 +8,14 @@ package com.mycompany.retounoydos;
  *
  * @author USER
  */
-public class Resta extends Operacion {
+public class ClsMultiplicacion extends ClsOperacion {
     
-    double resta;
+    double multiplicacion;
     
-    public Resta(double numero1, double numero2){
+    public ClsMultiplicacion(double numero1, double numero2){
     super(numero1,numero2);
-    this.resta = numero1 - numero2;
-    this.respuesta = this.resta;
+    this.multiplicacion = numero1 * numero2;
+    this.respuesta = this.multiplicacion;
     }
+    
 }

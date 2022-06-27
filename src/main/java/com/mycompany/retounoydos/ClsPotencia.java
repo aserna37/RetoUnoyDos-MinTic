@@ -8,14 +8,15 @@ package com.mycompany.retounoydos;
  *
  * @author USER
  */
-public class Raiz extends Operacion{
+public class ClsPotencia extends ClsOperacion{
     
-    double raiz;
-        
-    public Raiz(double numero1, double numero2){
+    double potencia;
+    
+    public ClsPotencia(double numero1, double numero2){
     super(numero1,numero2);
-    this.raiz = Math.sqrt(numero1);
-    this.respuesta = Math.round(this.raiz * Math.pow(10, 2)) / Math.pow(10, 2);
+    this.potencia = Math.pow(numero1, numero2);
+    this.respuesta = this.potencia;
         
     }
+    
 }

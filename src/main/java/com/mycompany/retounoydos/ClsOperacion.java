@@ -10,12 +10,12 @@ import javax.swing.JOptionPane;
  *
  * @author USER
  */
-public class Operacion {
+public class ClsOperacion {
     double numero1;
     double numero2;
     double respuesta;
     
-    public Operacion(double numero1, double numero2){
+    public ClsOperacion(double numero1, double numero2){
         this.numero1 = numero1;
         this.numero2 = numero2;
     }

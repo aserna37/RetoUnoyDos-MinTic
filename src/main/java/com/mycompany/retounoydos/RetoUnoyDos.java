@@ -85,7 +85,7 @@ public class RetoUnoyDos {
                     n2 = Integer.parseInt(numeros[1]);
                     ;
 
-                    Suma suma = new Suma(n1, n2);
+                    ClsSuma suma = new ClsSuma(n1, n2);
                     suma.mostrarResultado();
                     return Operacion();
 
@@ -95,7 +95,7 @@ public class RetoUnoyDos {
                     n2 = Integer.parseInt(numeros[1]);
                     ;
 
-                    Resta resta = new Resta(n1, n2);
+                    ClsResta resta = new ClsResta(n1, n2);
                     resta.mostrarResultado();
                     return Operacion();
 
@@ -105,7 +105,7 @@ public class RetoUnoyDos {
                     n2 = Integer.parseInt(numeros[1]);
                     ;
 
-                    Multiplicacion multiplicacion = new Multiplicacion(n1, n2);
+                    ClsMultiplicacion multiplicacion = new ClsMultiplicacion(n1, n2);
                     multiplicacion.mostrarResultado();
                     return Operacion();
 
@@ -118,7 +118,7 @@ public class RetoUnoyDos {
                         JOptionPane.showMessageDialog(null, "No se puede dividir entre cero", "Error", 0);
                         return Operacion();
                     } else {
-                        Division division = new Division(n1, n2);
+                        ClsDivision division = new ClsDivision(n1, n2);
                         division.mostrarResultado();
                         return Operacion();
                     }
@@ -129,7 +129,7 @@ public class RetoUnoyDos {
                     n2 = Integer.parseInt(numeros[1]);
                     ;
 
-                    Potencia potencia = new Potencia(n1, n2);
+                    ClsPotencia potencia = new ClsPotencia(n1, n2);
                     potencia.mostrarResultado();
                     return Operacion();
 
@@ -139,7 +139,7 @@ public class RetoUnoyDos {
                     n2 = Integer.parseInt(numeros[1]);
                     ;
 
-                    Raiz raiz = new Raiz(n1, n2);
+                    ClsRaiz raiz = new ClsRaiz(n1, n2);
                     raiz.mostrarResultado();
                     return Operacion();
 
