@@ -12,7 +12,7 @@ public class Suma extends Operacion {
     
     double suma;
     
-    public Suma(int numero1, int numero2){
+    public Suma(double numero1, double numero2){
     super(numero1,numero2);
     this.suma = numero1 + numero2;
     this.respuesta = this.suma;

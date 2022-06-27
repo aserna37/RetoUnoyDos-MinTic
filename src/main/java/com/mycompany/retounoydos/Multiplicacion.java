@@ -12,7 +12,7 @@ public class Multiplicacion extends Operacion {
     
     double multiplicacion;
     
-    public Multiplicacion(int numero1, int numero2){
+    public Multiplicacion(double numero1, double numero2){
     super(numero1,numero2);
     this.multiplicacion = numero1 * numero2;
     this.respuesta = this.multiplicacion;

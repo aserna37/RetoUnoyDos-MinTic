@@ -15,11 +15,11 @@ public class Division extends Operacion{
     
     double division;
     
-    public Division(int numero1, int numero2){
+    public Division(double numero1, double numero2){
     super(numero1,numero2);
     this.division = numero1 / numero2;
-    //DecimalFormat formato = new DecimalFormat("#.00");
-    this.respuesta = this.division;
         
+    this.respuesta = Math.round(this.division * Math.pow(10, 2)) / Math.pow(10, 2);
+    
     }
 }

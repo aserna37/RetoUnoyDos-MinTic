@@ -12,11 +12,10 @@ public class Raiz extends Operacion{
     
     double raiz;
         
-    public Raiz(int numero1, int numero2){
+    public Raiz(double numero1, double numero2){
     super(numero1,numero2);
     this.raiz = Math.sqrt(numero1);
-    //DecimalFormat formato = new DecimalFormat("#.00");
-    this.respuesta = this.raiz;
+    this.respuesta = Math.round(this.raiz * Math.pow(10, 2)) / Math.pow(10, 2);
         
     }
 }

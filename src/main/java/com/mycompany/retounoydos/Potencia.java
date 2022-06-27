@@ -12,7 +12,7 @@ public class Potencia extends Operacion{
     
     double potencia;
     
-    public Potencia(int numero1, int numero2){
+    public Potencia(double numero1, double numero2){
     super(numero1,numero2);
     this.potencia = Math.pow(numero1, numero2);
     this.respuesta = this.potencia;

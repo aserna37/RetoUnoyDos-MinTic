@@ -12,7 +12,7 @@ public class Resta extends Operacion {
     
     double resta;
     
-    public Resta(int numero1, int numero2){
+    public Resta(double numero1, double numero2){
     super(numero1,numero2);
     this.resta = numero1 - numero2;
     this.respuesta = this.resta;
